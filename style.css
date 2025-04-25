@@ -750,6 +750,7 @@ body {
   background-color: #0f0f0f;
   padding: 10px 0;
   z-index: 1000;
+  border-top: 1px solid #282727;
 }
 
 @media screen and (max-width: 768px) {
@@ -771,5 +772,6 @@ body {
     width: 24px;
     height: 24px;
     margin-bottom: 4px;
+    filter: invert(100%);
   }
 }
