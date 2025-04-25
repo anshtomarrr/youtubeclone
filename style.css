@@ -772,10 +772,6 @@ body {
     width: 24px;
     height: 24px;
     margin-bottom: 4px;
-    filter: brightness(0) invert(1);
+    filter: invert(100%);
   }
-}
-
-.side-bar-1 img {
-  filter: invert(100%);
 }
